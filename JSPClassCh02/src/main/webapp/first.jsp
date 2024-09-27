@@ -3,6 +3,7 @@
 <% 
 	String name = request.getParameter("name");
 	String msg = name + "님 안녕하세요";
+	String skirr = "당신은 skirr입니다.";
 %>    
 <!DOCTYPE html>
 <html>
@@ -11,6 +12,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1><%= msg %></h1>
+	<h1><%= msg%><%= skirr %></h1>
 </body>
 </html>
